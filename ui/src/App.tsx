@@ -8,7 +8,7 @@ import { useState } from 'react';
 
 // Replace with your actual package ID after deployment
 const PACKAGE_ID =
-  '0x0a1427295cebd991ef94474c0211f79abb9d12d701d55ac80d1b966d566fa858'; // Placeholder
+  '0xa5472adb566ffbe7d28f39eb7117aaa59fa7877c16a36f88475f5cd1fea8a54f'; // Placeholder
 const MODULE_NAME = 'workshop_nft';
 const FUNCTION_NAME = 'mint_nft';
 
