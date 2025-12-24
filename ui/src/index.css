@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --sui-blue: #00f2ff;
+  --sui-glow: rgba(0, 242, 255, 0.5);
+  background-color: #050810;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: radial-gradient(circle at top right, #101830, #050810);
+  color: white;
+  min-height: 100vh;
+}
+
+/* Custom Glow Classes */
+.text-glow {
+  text-shadow: 0 0 10px var(--sui-glow), 0 0 20px var(--sui-glow);
+}
+
+.card-glow {
+  box-shadow: 0 0 20px rgba(0, 242, 255, 0.1);
+  border: 1px solid rgba(0, 242, 255, 0.2);
+  backdrop-filter: blur(12px);
+}
+
+.input-focus:focus {
+  border-color: var(--sui-blue);
+  box-shadow: 0 0 10px var(--sui-glow);
+  outline: none;
+}
